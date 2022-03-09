@@ -2,5 +2,26 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 h1{
-    font-size: 50px;
+    font-size: 45px;
+}
+.name-color{
+    color: orange;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 3%;
+}
+.half-width img{
+    width: 85%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(hsla(14, 100%, 50%, 0.959), rgb(255, 162, 40));
+    padding: 7px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
 }
